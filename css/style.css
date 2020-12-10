@@ -151,13 +151,13 @@ body{
 	padding-left: 100px;
 }
 .relax__right-mask{
-	background-color: rgba(0, 0, 0, 0.75);
-	position: relative;
-	flex-basis: 70%;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: relative;
+    flex-basis: 70%;
     padding-left: 100px;
     padding-top: 20px;
     margin-left: -100px;
-    width: 1080px;
+    width: 1200px;
     height: 616px;
 }
 .block__title--white{
@@ -221,4 +221,91 @@ body{
 .relax-intro__btn:active {
   background-color: #acadac;
   box-shadow: 0 3px #acadac inset;
+}
+.block-project{
+	position: relative;
+	padding-bottom: 100px;
+}
+.block-project__ipad{
+	position: absolute;
+	background-image: url('../img/ipad.png');
+	background-repeat: no-repeat;
+	width: 681px;
+	height: 599px;
+	right: 0;
+	top: 200px;
+}
+.project{
+	text-align: left;
+	max-width: 480px;
+	padding-top: 90px;
+}
+.project__title{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.125rem;
+	color: var(--color-text-black);
+}
+.project-list {
+	padding-top: 27px;
+}
+.project__desc {
+	font-family: 'Roboto Slab';
+	color: var(--color-text-gray);
+	font-size: 1rem;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.project-list__title{
+	font-size: 1.125rem;
+	color: var(--color-text-black);
+}
+.project-list__desc {
+	font-family: 'Roboto Slab';
+	color: var(--color-text-gray);
+	font-size: 1rem;
+}
+.project-list__text{
+	padding-left: 16px;
+}
+.project-list__item{
+	display: flex;
+	align-items: center;
+}
+.project__link{
+	text-decoration: none;
+	font-weight: 700;
+    color: #7cc576;
+    font-size: 1rem;
+}
+.project__link:hover {
+ color: black; 
+}
+.project__link:active{
+	color: var(--color-text-gray);
+}
+.culture {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.wrap--position {
+    position: relative;
+}
+.culture-line {
+    position: absolute;
+    display:flex;
+    top:213px;
+}
+.culture-line__item {
+    width: 170px;
+    border-bottom: 2px solid var(--color-text-gray);
+    margin-left: 220px;
+}
+.culture-line__right {
+    margin-left: 150px;
+}
+.block--light-gray {
+    background-color: #f9f9f9;
+    padding-bottom: 90px;
 }
