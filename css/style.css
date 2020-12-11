@@ -157,7 +157,6 @@ body{
     padding-left: 100px;
     padding-top: 20px;
     margin-left: -100px;
-    width: 1200px;
     height: 616px;
 }
 .block__title--white{
@@ -308,4 +307,113 @@ body{
 .block--light-gray {
     background-color: #f9f9f9;
     padding-bottom: 90px;
+}
+/* BLOCK CLIENTS */
+.clients{
+	padding-top: 90px;
+}
+.message {
+	display: flex;
+	align-items: center;
+}
+.message--right{
+	flex-direction: row-reverse;
+}
+.m__ava{
+	height: 220px;
+	width: 220px;
+	background-color: olive;
+	border-radius: 50%;
+}
+.m__txt{
+	width: 661px;
+	height: 172px;
+	background-image: url('../img/message-box-right.png');
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	padding-left: 90px;
+	padding-right: 30px;
+	margin: 0 20px;
+}
+.m_txt--right{
+	background-image: url('../img/message-box-left.png');
+}
+.message__cite{
+	font-family: 'Roboto Slab';
+	color: var(--color-text-gray);
+	font-size: 1.375rem;
+	line-height: 1.3;
+}
+.message__cite::before{
+	content: '"';
+}
+.message__cite::after{
+    content: '"';	
+}
+.message__author{
+	font-family: 'Roboto Slab';
+    margin-top:15px;
+    font-size: 1.125rem;
+    color: #7cc576;
+}
+.block--light-green{
+	background-color: #7cc576;
+	height: 250px;
+	margin-top: 50px;
+	position: relative;
+}
+.Readtalk{
+	font-size: 2.5rem;
+	color: white;
+	text-transform: uppercase;
+	padding-top: -10px;
+}
+.newrap{
+	max-width: 1645px;
+	margin: 0 auto;
+}
+.contactbtn{
+  font-weight: 520;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 10px;
+  background-color: #7cc576;
+  transition: 0.2s;
+  display: block;
+  margin: 0 auto;
+  max-width: 155px;
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+}
+.contactbtn:hover{
+	background-color: #ffffff;
+    color: black; 
+}
+.contactbtn:active{
+	background-color: #acadac;
+    box-shadow: 0 3px #acadac inset;
+}
+.block-width{
+	position: relative;
+	height: 165px;
+}
+.disp{
+    list-style-type: none;
+    display: flex;
+    margin:50px;
+
+}
+.sponsor0{
+    margin-left:350px;
+    margin-right:50px;
+}
+.sponsor1{
+    margin-right:50px;
+}
+.sponsor2{
+    margin-right:50px;
+}
+.sponsor3{
+    margin-right:50px;
 }
